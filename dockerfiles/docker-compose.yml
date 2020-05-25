@@ -1,0 +1,59 @@
+version: '3'
+
+services:
+  jenkins:
+    image: jenkins/jenkins
+    container_name: jenkinscompose
+    voulumes: 
+      - ../volumes/jenkins:/var/jenkins_home 
+    ports:
+      - "8880:8080"
+      - "50000:50000"
+    networks:
+      - docker_network
+
+  ububtuslave:
+    depends_on:
+      - jenkins
+    container_name: ububtucompose
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    build:
+      context: ../dockerfiles/slave/
+    command: 
+    networks:
+      - docker_network
+  artifactory:
+    image: docker.bintray.io/jfrog/artifactory-oss:lates
+    container_name: jenkinscompose
+    voulumes:
+      - ../volumes/jenkins:/var/jenkins_home
+    ports:
+      - "8890:8081"
+      - "8082:8082"
+    volumes:
+      - ../volumes/artifactory:/var/opt/jfrog/artifactory
+    networks:
+      - docker_network
+  selenium_hub:
+    image: selenium/hub
+    container_name: selenium-hubcompose
+    ports: 
+      - "4444:4444"
+    networks: 
+      - docker_network
+  selenium_firefox:
+    depends_on: 
+    - selenium_hub
+    image: selenium_firefox
+    container_name: selenium-firefox
+    enviroment:
+      - HUB_HOST=selenium-hubcompose
+      - HUB_PORT=4444:4444
+    networks:
+      - docker_network
+nwtworks:
+  docker_network:
+    driver: bridge
+
+

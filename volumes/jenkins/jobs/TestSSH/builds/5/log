@@ -1,0 +1,25 @@
+Started by user [8mha:////4MAeyVsjHU8KmcTUzGMtjIpEdH4Vc6eNPu5KU8SERoSVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TestSSH
+using credential 54927bfa-6714-4d61-92d7-77d48d001ffa
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/annape789/dev-ops # timeout=10
+Fetching upstream changes from https://github.com/annape789/dev-ops
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/annape789/dev-ops +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fb541fbd3dd54cf294304be8c6ba2e38ca74f0dc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fb541fbd3dd54cf294304be8c6ba2e38ca74f0dc # timeout=10
+Commit message: "Update file1.txt"
+ > git rev-list --no-walk fb541fbd3dd54cf294304be8c6ba2e38ca74f0dc # timeout=10
+[TestSSH] $ /bin/sh -xe /tmp/jenkins176390253548432603.sh
++ cat file1.txt
+do re mi fa so la si 
+echo "jestem z gita"
++ echo jestem z gita
+jestem z gita
+Finished: SUCCESS

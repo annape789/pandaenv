@@ -1,0 +1,6 @@
+2020-05-27T15:29:42.082Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization started. Version: 1.4.3 Revision: 0.0.0 PID: 3117 Home: /opt/jfrog/artifactory
+2020-05-27T15:30:52.246Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - setting service id - jffe@000
+2020-05-27T15:30:52.323Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Cluster join: Successfully joined the cluster
+2020-05-27T15:30:52.370Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - UI service successfully registered on router, serviceId: jffe@000
+2020-05-27T15:30:52.973Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - Recurring tasks started
+2020-05-27T15:30:53.794Z [33m[jffe ][39m [34m[INFO ][39m [                ] [                              ] [main                ] - frontend (jffe) service initialization completed in 71.71 seconds. Listening on port: port 8070

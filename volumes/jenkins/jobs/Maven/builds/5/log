@@ -1,0 +1,27 @@
+Started by user [8mha:////4MAeyVsjHU8KmcTUzGMtjIpEdH4Vc6eNPu5KU8SERoSVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Maven
+using credential 10a6697c-4596-4ff1-a628-1379e7a7f09d
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/annape789/upadeted # timeout=10
+Fetching upstream changes from https://github.com/annape789/upadeted
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub
+ > git fetch --tags --progress -- https://github.com/annape789/upadeted +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/dev^{commit} # timeout=10
+Checking out Revision 16a2750b6972da029bb3e99835f5665cf69ed678 (origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 16a2750b6972da029bb3e99835f5665cf69ed678 # timeout=10
+Commit message: "updated pom.xml"
+First time build. Skipping changelog.
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.6.3/apache-maven-3.6.3-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.6.3 on Jenkins
+using settings config with name MavenSettings
+Replacing all maven server entries not found in credentials list is true
+[Maven] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.6.3/bin/mvn -s /tmp/settings3454207861602364867.xml install
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Error executing Maven.
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 1 problem was encountered while building the effective settings
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 'servers.server[0].id' is missing @ /tmp/settings3454207861602364867.xml
+
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

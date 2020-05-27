@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-13 20:55:48.218 UTC</timestamp>
+  <md5sum>fce27141be53bdc97e532baeb32eb424</md5sum>
+  <fileName>Credential id=10a6697c-4596-4ff1-a628-1379e7a7f09d name=annape789/****** (GitHub)</fileName>
+  <usages>
+    <entry>
+      <string>Maven</string>
+      <ranges>3-34</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,12 @@
+[filesystem "panda-VirtualBox|Ubuntu|11.0.6|/dev/sda1"]
+	timestampResolution = 8000 nanoseconds
+	minRacyThreshold = 6370 microseconds
+[filesystem "panda-VirtualBox|Oracle Corporation|11.0.6|/dev/sda1"]
+	timestampResolution = 69000 nanoseconds
+	minRacyThreshold = 7783 microseconds
+[filesystem "ca90bc7b74c2|Oracle Corporation|1.8.0_242|/dev/sda1"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 6360 microseconds
+[filesystem "4141a06d437f|Oracle Corporation|1.8.0_242|/dev/sda1"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 5830 microseconds

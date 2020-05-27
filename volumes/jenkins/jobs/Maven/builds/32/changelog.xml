@@ -1,0 +1,10 @@
+commit 6c0c9d8906f46036a0154bf7524f1d4b1627b9aa
+tree 9fd961e4e1eb429e4376cfb64d9de3c658acba28
+parent a2ddf73a3b68bad861d1537dc27b088fb6ce9266
+author panda <anna.pe@panda.com> 2020-05-22 19:02:00 +0200
+committer panda <anna.pe@panda.com> 2020-05-22 19:02:00 +0200
+
+     selenium
+
+
+:100644 100644 fe11536b166147b05ddaf0d58d698ba5ca37794e 1b0677dee6946298b510273b70c2aa40f429123e M	src/test/java/pl/pandait/panda/PandaApplicationSeleniumTest.java

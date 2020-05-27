@@ -1,0 +1,64 @@
+Started by user [8mha:////4MAeyVsjHU8KmcTUzGMtjIpEdH4Vc6eNPu5KU8SERoSVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Maven
+using credential 10a6697c-4596-4ff1-a628-1379e7a7f09d
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/annape789/app # timeout=10
+Fetching upstream changes from https://github.com/annape789/app
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub
+ > git fetch --tags --progress -- https://github.com/annape789/app +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 7b7682cb906cdf6bf48f077bf2f5e7e1910807f3 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7b7682cb906cdf6bf48f077bf2f5e7e1910807f3 # timeout=10
+Commit message: "docker maven plugin"
+First time build. Skipping changelog.
+using settings config with name MavenSettings
+Replacing all maven server entries not found in credentials list is true
+[Maven] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.6.3/bin/mvn -s /tmp/settings16475308030064760366.xml install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< pl.pandait:panda >--------------------------
+[INFO] Building panda 1.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 2 resources
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ panda ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /var/lib/jenkins/workspace/Maven/target/classes
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ panda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/Maven/src/test/resources
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ panda ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/Maven/target/test-classes
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ panda ---
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.1.2:jar (default-jar) @ panda ---
+[INFO] Building jar: /var/lib/jenkins/workspace/Maven/target/panda-1.1.0.jar
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.2.4.RELEASE:repackage (repackage) @ panda ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[8mha:////4KSeLriNqbCwDrnkLRgK7C9Kt9i/ZoPGVXfpOB8wwfv4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ panda ---
+[INFO] Installing /var/lib/jenkins/workspace/Maven/target/panda-1.1.0.jar to /var/lib/jenkins/.m2/repository/pl/pandait/panda/1.1.0/panda-1.1.0.jar
+[INFO] Installing /var/lib/jenkins/workspace/Maven/pom.xml to /var/lib/jenkins/.m2/repository/pl/pandait/panda/1.1.0/panda-1.1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.392 s
+[INFO] Finished at: 2020-05-18T17:08:11+02:00
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

@@ -1,0 +1,56 @@
+Started at Tue May 26 13:11:22 UTC 2020
+Processing hook.git
+Offering hook.git to Project Build Discarder
+Processing Job1
+Offering Job1 to Project Build Discarder
+Processing Maven
+Offering Maven to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing TestSSH
+Offering TestSSH to Project Build Discarder
+Finished at Tue May 26 13:11:22 UTC 2020. 53ms
+Started at Tue May 26 14:11:22 UTC 2020
+Processing hook.git
+Offering hook.git to Project Build Discarder
+Processing Job1
+Offering Job1 to Project Build Discarder
+Processing Maven
+Offering Maven to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing TestSSH
+Offering TestSSH to Project Build Discarder
+Finished at Tue May 26 14:11:22 UTC 2020. 7ms
+Started at Tue May 26 15:11:22 UTC 2020
+Processing hook.git
+Offering hook.git to Project Build Discarder
+Processing Job1
+Offering Job1 to Project Build Discarder
+Processing Maven
+Offering Maven to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing TestSSH
+Offering TestSSH to Project Build Discarder
+Finished at Tue May 26 15:11:22 UTC 2020. 16ms
+Started at Tue May 26 16:11:22 UTC 2020
+Processing hook.git
+Offering hook.git to Project Build Discarder
+Processing Job1
+Offering Job1 to Project Build Discarder
+Processing Maven
+Offering Maven to Project Build Discarder
+Processing test
+Offering test to Project Build Discarder
+Processing test2
+Offering test2 to Project Build Discarder
+Processing TestSSH
+Offering TestSSH to Project Build Discarder
+Finished at Tue May 26 16:11:22 UTC 2020. 14ms

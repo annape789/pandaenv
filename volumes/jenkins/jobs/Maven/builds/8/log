@@ -1,0 +1,40 @@
+Started by user [8mha:////4MAeyVsjHU8KmcTUzGMtjIpEdH4Vc6eNPu5KU8SERoSVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Maven
+using credential 10a6697c-4596-4ff1-a628-1379e7a7f09d
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/annape789/upadeted # timeout=10
+Fetching upstream changes from https://github.com/annape789/upadeted
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials GitHub
+ > git fetch --tags --progress -- https://github.com/annape789/upadeted +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 16a2750b6972da029bb3e99835f5665cf69ed678 (origin/dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 16a2750b6972da029bb3e99835f5665cf69ed678 # timeout=10
+Commit message: "updated pom.xml"
+ > git rev-list --no-walk 16a2750b6972da029bb3e99835f5665cf69ed678 # timeout=10
+using settings config with name MavenSettings
+Replacing all maven server entries not found in credentials list is true
+[Maven] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven_3.6.3/bin/mvn -s /tmp/settings12571343892101726434.xml install
+[INFO] Scanning for projects...
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /var/lib/jenkins/workspace/Maven/pom.xml: expected > to finsh end tag not < from line 106 (position: TEXT seen ...</snapshotRepository>\n    </distributionManagement\n<... @118:2)  @ line 118, column 2
+ @ 
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The build could not read 1 project -> [Help 1]
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   The project  (/var/lib/jenkins/workspace/Maven/pom.xml) has 1 error
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]     Non-parseable POM /var/lib/jenkins/workspace/Maven/pom.xml: expected > to finsh end tag not < from line 106 (position: TEXT seen ...</snapshotRepository>\n    </distributionManagement\n<... @118:2)  @ line 118, column 2 -> [Help 2]
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[8mha:////4CRf02W3yrJSGv2pEsMdmdi9CVbou4p6imzQEXQRxnTaAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

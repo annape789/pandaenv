@@ -1,0 +1,10 @@
+commit a14dbc5070cc27865358d347e99d6e76a7a80268
+tree 87d41d3e9a824db9c9c7b8b42d391bee7faa5a44
+parent 16a2750b6972da029bb3e99835f5665cf69ed678
+author panda <anna.pe@panda.com> 2020-05-13 23:39:31 +0200
+committer panda <anna.pe@panda.com> 2020-05-13 23:39:31 +0200
+
+    new
+
+
+:100644 100644 4e20decd6b2b3605f26afed42f944961ddd8a3ed 54f9d61932106ace6417b163c5dede2e11bb1947 M	pom.xml

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-02-26 18:58:46.845 UTC</timestamp>
+  <md5sum>e9026aee77e3f3eb940cfb677cf99f86</md5sum>
+  <fileName>Credential id=54927bfa-6714-4d61-92d7-77d48d001ffa name=panda/******</fileName>
+  <usages>
+    <entry>
+      <string>TestSSH</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>Job1</string>
+      <ranges>8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

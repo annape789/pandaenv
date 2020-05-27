@@ -1,0 +1,30 @@
+Started by user [8mha:////4MAeyVsjHU8KmcTUzGMtjIpEdH4Vc6eNPu5KU8SERoSVAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9gsS8lEQACjKVYMAAAAA=[0mpanda
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Job1
+using credential 54927bfa-6714-4d61-92d7-77d48d001ffa
+Cloning the remote Git repository
+Cloning repository https://github.com/annape789/dev-ops
+ > git init /var/lib/jenkins/workspace/Job1 # timeout=10
+Fetching upstream changes from https://github.com/annape789/dev-ops
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/annape789/dev-ops +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/annape789/dev-ops # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/annape789/dev-ops # timeout=10
+Fetching upstream changes from https://github.com/annape789/dev-ops
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/annape789/dev-ops +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 87abd1fe3501d0b18033c73693ace362bcf18689 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 87abd1fe3501d0b18033c73693ace362bcf18689 # timeout=10
+Commit message: "3"
+First time build. Skipping changelog.
+[Job1] $ /bin/sh -xe /tmp/jenkins14490534177543852711.sh
++ echo Hello world
+Hello world
++ return 0
+[Job1] $ /bin/sh -xe /tmp/jenkins1269560594167319416.sh
+Finished: SUCCESS
